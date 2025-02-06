@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
         public void addCorsMappings(CorsRegistry registry) {
             registry.addMapping("/**")
                     .allowedOrigins("http://localhost:5173",
-                            "https://excellent-emili-bandarisgalaxy-5799a647.koyeb.app/")  // Specify your frontend URL here
+                            "https://excellent-emili-bandarisgalaxy-5799a647.koyeb.app")  // Specify your frontend URL here
                     .allowedMethods("GET", "POST", "PUT", "DELETE")  // Specify allowed methods
                     .allowedHeaders("*")  // Allow all headers
                     .allowCredentials(true);  // Allow credentials (cookies, authorization headers, etc.)
