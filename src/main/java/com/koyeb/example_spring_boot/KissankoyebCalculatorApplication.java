@@ -12,10 +12,10 @@ public class KissankoyebCalculatorApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KissankoyebCalculatorApplication.class, args);
 	}
-	@GetMapping("/")
-	public String hello()
-	{
-		return String.format("Hello world")	;
-	}
+//	@GetMapping("/")
+//	public String hello()
+//	{
+//		return String.format("Hello world")	;
+//	}
 
 }
